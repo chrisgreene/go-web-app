@@ -12,5 +12,5 @@ func main() {
 }
 
 func homeHandler(w http.ResponseWriter, request *http.Request) {
-        fmt.Fprintln(w, "home")
+        fmt.Fprintln(w, "home.")
 }
